@@ -8,10 +8,7 @@ namespace GeradorDeSenhas
 {
     public class Gerador : IDisposable
     {
-        /// <summary>
-        /// %AppData%\Microsoft\Windows\
-        /// !"£$%^*&*
-        /// </summary>
+
         public Gerador() {}
 
         public async Task<string> GerarSenhaAleatoria()
